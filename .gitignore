@@ -1,0 +1,92 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Conda
+.conda/
+conda-env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Datasets
+# =========================
+data/
+dataset/
+datasets/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# CheXpert / large image datasets
+chexpert/
+CheXpert/
+Lung\ Disease\ Dataset/
+
+# =========================
+# Trained models
+# =========================
+*.h5
+*.keras
+*.hdf5
+*.ckpt
+checkpoints/
+models/
+saved_model/
+
+# =========================
+# TensorFlow
+# =========================
+logs/
+tensorboard/
+**/events.out.tfevents.*
+
+# =========================
+# Experiment outputs
+# =========================
+results/
+outputs/
+runs/
+predictions/
+
+# =========================
+# Python tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+kaggle.json
